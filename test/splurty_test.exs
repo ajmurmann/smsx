@@ -1,4 +1,4 @@
-defmodule SplurtyTest do
+defmodule SmsxTest do
   use ExUnit.Case
 
   test "the truth" do

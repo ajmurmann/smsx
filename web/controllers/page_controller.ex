@@ -1,4 +1,4 @@
-defmodule Splurty.PageController do
+defmodule Smsx.PageController do
   use Phoenix.Controller
 
   plug :action

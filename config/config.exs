@@ -6,7 +6,7 @@
 use Mix.Config
 
 # Configures the endpoint
-config :splurty, Splurty.Endpoint,
+config :Smsx, Smsx.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "FdoXThteHG2qfLor8MqdFlSu8TPEBwCdabsTn6vSA6YS/Rdmgk9jo7W2iZypdhsH",
   debug_errors: false

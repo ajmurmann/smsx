@@ -1,4 +1,4 @@
-# Splurty
+# Smsx
 
 To start your new Phoenix application:
 

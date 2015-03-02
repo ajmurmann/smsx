@@ -1,3 +1,3 @@
-defmodule Splurty.LayoutView do
-  use Splurty.View
+defmodule Smsx.LayoutView do
+  use Smsx.View
 end

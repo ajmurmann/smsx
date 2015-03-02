@@ -1,8 +1,8 @@
-defmodule Splurty.Mixfile do
+defmodule Smsx.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :splurty,
+    [app: :Smsx,
      version: "0.0.1",
      elixir: "~> 1.0",
      elixirc_paths: ["lib", "web"],
@@ -14,7 +14,7 @@ defmodule Splurty.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [mod: {Splurty, []},
+    [mod: {Smsx, []},
      applications: [:phoenix, :cowboy, :logger]]
   end
 

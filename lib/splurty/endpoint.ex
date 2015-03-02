@@ -1,8 +1,8 @@
-defmodule Splurty.Endpoint do
-  use Phoenix.Endpoint, otp_app: :splurty
+defmodule Smsx.Endpoint do
+  use Phoenix.Endpoint, otp_app: :Smsx
 
   plug Plug.Static,
-    at: "/", from: :splurty
+    at: "/", from: :Smsx
 
   plug Plug.Logger
 
@@ -20,9 +20,9 @@ defmodule Splurty.Endpoint do
 
   plug Plug.Session,
     store: :cookie,
-    key: "_splurty_key",
+    key: "_Smsx_key",
     signing_salt: "99UlQRv8",
     encryption_salt: "qPsBTi3A"
 
-  plug :router, Splurty.Router
+  plug :router, Smsx.Router
 end

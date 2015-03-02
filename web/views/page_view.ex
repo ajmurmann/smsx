@@ -1,3 +1,3 @@
-defmodule Splurty.PageView do
-  use Splurty.View
+defmodule Smsx.PageView do
+  use Smsx.View
 end

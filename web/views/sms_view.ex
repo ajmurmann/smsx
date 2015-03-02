@@ -1,3 +1,3 @@
-defmodule Splurty.SMSView do
-  use Splurty.View
+defmodule Smsx.SMSView do
+  use Smsx.View
 end

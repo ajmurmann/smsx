@@ -1,5 +1,5 @@
-defmodule Splurty.ErrorView do
-  use Splurty.View
+defmodule Smsx.ErrorView do
+  use Smsx.View
 
   def render("404.html", _assigns) do
     "Page not found - 404"

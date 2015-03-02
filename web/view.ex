@@ -1,4 +1,4 @@
-defmodule Splurty.View do
+defmodule Smsx.View do
   use Phoenix.View, root: "web/templates"
 
   # The quoted expression returned by this block is applied
@@ -6,7 +6,7 @@ defmodule Splurty.View do
   using do
     quote do
       # Import common functionality
-      import Splurty.Router.Helpers
+      import Smsx.Router.Helpers
 
       # Use Phoenix.HTML to import all HTML functions (forms, tags, etc)
       use Phoenix.HTML

@@ -1,4 +1,4 @@
-defmodule Splurty.Router do
+defmodule Smsx.Router do
   use Phoenix.Router
 
   pipeline :browser do
@@ -12,15 +12,13 @@ defmodule Splurty.Router do
     plug :accepts, ~w(json)
   end
 
-  scope "/", Splurty do
+  scope "/", Smsx do
     pipe_through :browser # Use the default browser stack
-
-    get "/", QuoteController, :homepage
     get "/send_sms", SMSController, :create
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", Splurty do
+  # scope "/api", Smsx do
   #   pipe_through :api
   # end
 end

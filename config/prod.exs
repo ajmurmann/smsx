@@ -11,7 +11,7 @@ use Mix.Config
 # Where those two env variables point to a file on
 # disk for the key and cert.
 
-config :splurty, Splurty.Endpoint,
+config :Smsx, Smsx.Endpoint,
   url: [host: "example.com"],
   http: [port: System.get_env("PORT")],
   secret_key_base: "FdoXThteHG2qfLor8MqdFlSu8TPEBwCdabsTn6vSA6YS/Rdmgk9jo7W2iZypdhsH"
@@ -29,5 +29,5 @@ config :logger, level: :info
 # Alternatively, you can configure exactly which server to
 # start per endpoint:
 #
-#     config :splurty, Splurty.Endpoint, server: true
+#     config :Smsx, Smsx.Endpoint, server: true
 #
